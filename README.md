@@ -1,4 +1,4 @@
-# espanso-mac-symbols
+# Espanso Mac symbols
 Easy Mac symbols using the [Espanso](https://espanso.org/) text expander.
 
 For more information, read the [documentation](https://espanso.org/docs/) or explore the [hub](https://hub.espanso.org/)
@@ -13,7 +13,9 @@ espanso restart
 
 type <kbd>:cmd</kbd> for fun
 
-# Matcher Detail
+# Matcher Details
+This package replaces the following keywords with the associated mac symbols while you’re typing:
+
 | Keyword | Replaced |
 | --- | --- |
 | `:cmd` | ⌘ |
@@ -39,4 +41,5 @@ type <kbd>:cmd</kbd> for fun
 | `:del` | ⌫ |
 | `:fdel` | ⌦  |
 
-
+# Contributes
+Not found symbols ? Feel free to open an [issue](https://github.com/lifesign/espanso-mac-symbols/issues) or Pull Requests
