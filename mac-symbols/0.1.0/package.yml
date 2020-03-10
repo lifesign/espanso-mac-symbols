@@ -12,6 +12,8 @@ matches:
     replace: "⌃"
   - trigger: ":alt"
     replace: "⌥"
+  - trigger: ":opt"
+    replace: "⌥"
   - trigger: ":left"
     replace: "←"
   - trigger: ":right"

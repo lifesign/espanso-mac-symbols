@@ -22,6 +22,7 @@ This package replaces the following keywords with the associated mac symbols whi
 | `:shift` | ⇧ |
 | `:ctrl` | ⌃ |
 | `:alt` | ⌥ |
+| `:opt` | ⌥ |
 | `:left` | ← |
 | `:right` | → |
 | `:up` | ↑ |
