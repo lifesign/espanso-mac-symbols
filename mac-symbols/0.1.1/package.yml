@@ -4,49 +4,47 @@ name: mac-symbols
 parent: default
 
 matches:
-  - trigger: ":cmd"
+  - triggers: [":command", ":cmd"]
     replace: "⌘"
-  - trigger: ":shift"
+  - trigger: :shift
     replace: "⇧"
-  - trigger: ":ctrl"
+  - triggers: [":control", ":ctrl"]
     replace: "⌃"
-  - trigger: ":alt"
+  - triggers: [":option", ":alt"]
     replace: "⌥"
-  - trigger: ":opt"
-    replace: "⌥"
-  - trigger: ":left"
+  - trigger: :left
     replace: "←"
-  - trigger: ":right"
+  - trigger: :right
     replace: "→"
-  - trigger: ":up"
+  - trigger: :up
     replace: "↑"
-  - trigger: ":down"
+  - trigger: :down
     replace: "↓"
-  - trigger: ":caps_lock"
+  - triggers: [":capslock", ":caps_lock"]
     replace: "⇪"
-  - trigger: ":esc"
+  - trigger: :escape
     replace: "⎋"
-  - trigger: ":eject"
+  - trigger: :eject
     replace: "⏏"
-  - trigger: ":return"
+  - trigger: :return
     replace: "↵"
-  - trigger: ":enter"
+  - trigger: :enter
     replace: "⌅"
-  - trigger: ":tab"
+  - trigger: :tab
     replace: "⇥"
-  - trigger: ":backtab"
+  - triggers: [":backtab", ":bktab"]
     replace: "⇤"
-  - trigger: ":pgup"
+  - triggers: [":pageup", ":pgup"]
     replace: "⇞"
-  - trigger: ":pgdown"
+  - triggers: [":pagedown", ":pgdown", ":pgdwn"]
     replace: "⇟"
-  - trigger: ":home"
+  - trigger: :home
     replace: "↖"
-  - trigger: ":end"
+  - trigger: :end
     replace: "↘"
-  - trigger: ":space"
+  - trigger: :space
     replace: "␣"
-  - trigger: ":del"
+  - trigger: :delete
     replace: "⌫"
-  - trigger: ":fdel"
-    replace: "⌦"  
+  - triggers: [":reversedelete", ":rdelete", ":forwarddelete", ":fdelete" ":backspace", ":bkspc"]
+    replace: "⌦"
